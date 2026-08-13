@@ -1,0 +1,44 @@
+
+********* Time Complexity  *******
+
+Complexity	      Name	         Typical example
+O(1)	       Constant	          arr[i]
+O(log n)	   Logarithmic	      Binary Search
+O(n)	       Linear	          Array traversal
+O(n log n)	   Linearithmic       Merge Sort
+O(n²)	       Quadratic	      Nested loops
+O(n³)	       Cubic	          3 nested loops
+O(2ⁿ)	       Exponential	      Subsets
+O(n!)	       Factorial	      Permutations
+
+***** Learn Common Data Structure Complexities  ******
+
+********** Array *****************
+Operation	      Complexity
+Access	                O(1)
+Search	                O(n)
+Insert at end	        O(1)*
+Insert at beginning	    O(n)
+Delete at beginning	    O(n)
+Delete at end	        O(1)*
+
+* depends on the array implementation and whether resizing is required.
+
+********** HashMap *****************
+Operation	    Average
+put()	        O(1)
+get()	        O(1)
+remove()	    O(1)
+Search	        O(1)
+
+Worst-case hashing behavior can degrade, so understand average vs worst case rather than blindly saying HashMap is always O(1).
+
+Stack
+push() → O(1)
+pop()  → O(1)
+peek() → O(1)
+
+Queue
+offer() → O(1)
+poll()  → O(1)
+peek()  → O(1)
